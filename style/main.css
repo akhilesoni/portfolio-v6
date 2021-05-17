@@ -112,7 +112,6 @@ body{
     left: 243px;
 }
 .s{
-    filter: blur(1px);
     opacity: 0;
     width: 20px;
     height: 20px;
@@ -193,6 +192,21 @@ body{
         right: -20px;
     }
 
+    .smoke{
+        left: 195px;
+        top: 200px;
+
+    }
+
+    .cat_shadow{
+        right: 5px;
+    }
+
+    .s{
+        height: 15px;
+        width: 15px;
+    }
+
     .tail{
         right: -20px;
     }
@@ -201,10 +215,14 @@ body{
     }
 
     .tree_wrapper{
-        top: 300px;
+        top: 250px;
     }
 
     .girl{
         height: 400px;
+    }
+
+    .building{
+        visibility: hidden;
     }
   }
