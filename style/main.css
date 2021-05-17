@@ -1,0 +1,210 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    background-color: rgb(90, 84, 71);
+}
+
+.art{
+    margin: auto;
+    width: 800px;
+    position: relative;
+    height: 100%;
+    background-image: linear-gradient(to top , rgb(255, 209, 253),rgb(195, 172, 248));
+}
+
+
+.girl_wrapper{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    margin-left: -100px;
+    margin-bottom: -50px;
+}
+.girl{
+    height: 500px;
+}
+
+
+
+.cat_wrapper{
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+}
+
+.balcony{
+    width: 100%;
+    height: 135px;
+    position: absolute;
+    bottom: 60px;
+    background-image: url(images/rail.png);
+    background-repeat: repeat-x;
+}
+
+.foreground{
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(90, 84, 71);
+}
+
+.tree{
+    height: 200px;
+    width: 300px;
+    margin-right: -50px;
+}
+
+
+.building{
+    width: 100%;
+    height: 30%;
+    background-image: url(images/building.png);
+    background-repeat: repeat-x;
+    background-size: contain;
+    position: absolute;
+   
+    bottom: 50px;
+}
+.tree_wrapper{
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+}
+
+.cat_shadow{
+    background-color: rgba(0, 0, 0, 0.253);
+    border-radius: 50%;
+    height: 30px;
+    right: 120px;
+    top: -35px;
+    width: 50px;
+    position: absolute;
+}
+
+.cat{
+    position: absolute;
+    top: -240px;
+    right: 100px;
+}
+
+.tail{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: -40px;
+    right: 100px;
+
+}
+
+.smoke{
+    position: absolute;
+    top: 210px;
+    left: 243px;
+}
+.s{
+    filter: blur(1px);
+    opacity: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+}
+
+.cloud{
+    height: 40px;
+    position: absolute;
+   
+}
+.c1{
+    top: 100px;
+    left: 100px;
+}
+
+.c2{
+    top: 70px;
+    right:100px;
+}
+
+.light{
+    height: 36px;
+    position: absolute;
+    background-color: rgba(255, 250, 238, 0.842);
+    bottom: 24px;
+    width: 115%;
+    margin-left: -7.5%;
+}
+
+
+.right{
+    background-image: linear-gradient(to left,rgb(199, 192, 179),rgb(180, 172, 156));
+    transform: skewY(-20deg);
+    height: 100%;
+    width: 10%;
+    position: absolute;
+    top: -40px;
+    left: -60px;
+}
+
+.girl_shadow1{
+    background-color: rgba(0, 0, 0, 0.301);
+    transform: skewY(-30deg);
+    height: 40%;
+    width: 10%;
+    position: absolute;
+    top: 50%;
+    left: -60px;
+}
+
+.girl_shadow2{
+    height: 36px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(5, 5, 5, 0.329);
+    bottom: 24px;
+    width: 47%;
+    margin-left: 0%;
+}
+
+
+
+
+.left{
+    background-image: linear-gradient(to right,rgb(199, 192, 179),rgb(180, 172, 156));
+    transform: skewY(20deg);
+    height: 100%;
+    width: 10%;
+    position: absolute;
+    top: -40px;
+    right: -60px;
+}
+@media only screen and (max-width: 600px) {
+    .cat{
+        right: -20px;
+    }
+
+    .tail{
+        right: -20px;
+    }
+    .c2{
+        visibility: hidden;
+    }
+
+    .tree_wrapper{
+        top: 300px;
+    }
+
+    .girl{
+        height: 400px;
+    }
+  }
